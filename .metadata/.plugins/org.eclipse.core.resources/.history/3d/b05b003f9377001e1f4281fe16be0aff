@@ -1,0 +1,13 @@
+package com.test.toy.board.model;
+
+public class BoardDTO {
+
+	private String seq;
+	private String subject;
+	private String content;
+	private String regdate;
+	private int readcount;
+	private String id;
+	
+	
+}

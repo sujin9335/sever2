@@ -1,0 +1,40 @@
+package com.test.toy.user.repository;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.Statement;
+
+import com.test.toy.user.model.UserDTO;
+
+public class UserDAO {
+
+	private Connection conn;
+	private Statement stat;
+	private PreparedStatement pstat;
+	private ResultSet rs;
+	
+	
+	
+	
+	public int register(UserDTO dto) {
+
+		try {
+			
+			String sql="insert into tblUser (id, pw, name, email, lv, pic, intro, ing)\r\n"
+					+ "    values(?, ?, '홍길동', 'hong@gamil.com', '1', default, '자바를 공부하는 학생입니다', default)";
+			
+			
+			
+
+		} catch (Exception e) {
+			System.out.println("UserDAO.register");
+			e.printStackTrace();
+		}
+		
+		
+		
+		return 0;
+	}
+
+}

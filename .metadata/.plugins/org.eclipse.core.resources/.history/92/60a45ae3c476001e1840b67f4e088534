@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+
+html {
+	overflow-y: scroll;
+}
+
+#header {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #CCC;
+	height: 60px;
+}
+
+#header > h1 {
+	margin: 1rem;
+	font-size: 1rem;
+}
+
+#header > nav {
+	margin: 1rem;
+}
+
+#header > nav > a {
+	font-size: 14px;
+	padding-right: 2px;
+}
+
+
+
+
+

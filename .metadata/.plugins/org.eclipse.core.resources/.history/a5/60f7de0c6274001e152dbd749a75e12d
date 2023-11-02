@@ -1,0 +1,82 @@
+새 프로젝트 > Dynamic web project > “AjaxTest” > next > next > context root : “ajax” > generate web.xml
+
+
+"com.test.ajax" 패키지 생성
+"com.text.ajax.controller"
+"com.test.ajax.repository"
+"com.text.ajax.model
+
+- WEB-INF > "views" 폴더 생성
+
+- WEB-INF > lib > ojdbc6.jar
+				> jstl-1.2.jar
+				> lombok.jar //예정
+				> json		 //예정
+
+Ajax, Asynchronous JavaScript and XML
+- 자바스크립트 기술
+- 비동기 방식으로 자바스크립트를 사용해서 서버와 데이터를 통신하는 기술(XML 형식으로 주고받음)
+
+: 데이터 처리 jsp를 거치지 않고 와서 깜박임없이 바로 출력됨
+
+- com.text.controller > "Ex01.java"
+					  > "Ex01Data.java"
+- com.text.controller.repository > "AjaxDAO.java"
+- views > "ex01.jsp"
+		> "ex01data.jsp"
+
+------
+
+- com.text.controller > "Ex02.java"
+					  > "Ex02Data.java"
+- views > "ex02.jsp"
+		> "ex02data.jsp"
+
+------제이쿼리버전
+
+- com.text.controller > "Ex03.java"
+					  > "Ex03Data.java"
+- views > "ex03.jsp"
+		> "ex03data.jsp"
+
+
+------xml json
+
+- com.text.controller > "Ex04.java"
+					  > "Ex04Data.java"
+- views > "ex04.jsp" 
+
+------Ajax 데이터 보내는 방법
+
+- com.text.controller > "Ex05.java"
+					  > "Ex05Data.java"
+- views > "ex05.jsp" 
+
+------아이디 중복검사
+
+- com.text.controller > "Ex06.java"
+					  > "Ex06Data.java"
+- views > "ex06.jsp" 
+
+------
+
+- com.text.controller > "Ex07.java"
+					  > "Ex07Data.java"
+- views > "ex07.jsp" 
+
+------
+
+- AjaxTest > "script.sql"
+- com.text.ajax.controller > "Ex08.java"
+- com.text.ajax.service > "list.java"
+- views > "ex08.jsp" 
+
+- com.test.controller.model > "AddressDTO.java"
+
+
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+package com.test.toy.board;
+
+import com.test.toy.DBUtil;
+
+public class Dummy {
+
+	public static void main(String[] args) {
+		
+		try {
+			
+			Connection conn=null;
+			PreparedStatement stat=null;
+			
+			conn=DBUtil.open();
+			
+			
+
+		} catch (Exception e) {
+			System.out.println("Dummy.main");
+			e.printStackTrace();
+		}
+		
+		
+	}
+	
+}

@@ -1,0 +1,33 @@
+package com.test.toy.board;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+
+import com.test.toy.DBUtil;
+
+public class Dummy {
+
+	public static void main(String[] args) {
+		
+		try {
+			
+			Connection conn=null;
+			PreparedStatement stat=null;
+			
+			conn=DBUtil.open();
+			
+			
+			String sql="insert into tblBoard (seq, subject, content, regdate, readcount, id) values (seqBoard.nextVal, ?, '내용', default, default, ?)";;
+			
+			
+			
+
+		} catch (Exception e) {
+			System.out.println("Dummy.main");
+			e.printStackTrace();
+		}
+		
+		
+	}
+	
+}
