@@ -59,10 +59,17 @@
 		- Del.java: 삭제
 		- Auth.java: 권한 확인
 		- Dummy.java: 더미 데이터
+		
+		- Comment.java: 댓글
+		- DelComment.java: 댓글 삭제
+		- EditComment.java: 댓글 수정
+		
+		
 	6. com.test.toy.board.repository
 		- BoardDAO.java
 	7. com.test.toy.board.model
 		- BoardDTO.java
+		- CommentDTO.java
 	8. com.test.toy.filter
 		- EncodingFilter.java
 		- AuthFilter.java
@@ -137,7 +144,8 @@ Favicon
 
 
 
-
+--------------------------------
+댓글
 
 
 

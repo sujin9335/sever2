@@ -33,7 +33,7 @@ commit;
 
 -- 게시판 검색
 
-select * from vwBoard --목록보기
+select * from vwBoard; --목록보기
 
 select * from vwBoard where subject like '%게시판%'; --검색
 
@@ -44,7 +44,8 @@ select * from(select a.*, rownum as rnum from vwBoard a) where rnum between 11 a
 select * from(select a.*, rownum as rnum from vwBoard a) where rnum between 21 and 30;
 
 
-
+--댓글
+select * from tblComment;
 
 
 
