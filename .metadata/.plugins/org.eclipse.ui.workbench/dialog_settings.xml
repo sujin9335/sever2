@@ -20,6 +20,7 @@
 		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
 		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
 		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\sujin\OneDrive\바탕 화면\Project-jr\jr_11-06.zip"/>
 			<item value="C:\Users\user\Desktop\10-26.zip"/>
 			<item value="C:\Users\user\Desktop\1.zip"/>
 		</list>

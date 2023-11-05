@@ -33,7 +33,6 @@
     <fullyQualifiedTypeName name="lombok.Data"/>
     <fullyQualifiedTypeName name="lombok.EqualsAndHashCode"/>
     <fullyQualifiedTypeName name="java.sql.Statement"/>
-    <fullyQualifiedTypeName name="javax.servlet.Filter"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="com.test.toy.board.repository.BoardDAO"/>
     <fullyQualifiedTypeName name="com.test.toy.DBUtil"/>
@@ -43,4 +42,6 @@
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="org.json.simple.JSONObject"/>
     <fullyQualifiedTypeName name="com.test.toy.user.model.CommentDTO"/>
+    <fullyQualifiedTypeName name="com.sun.org.apache.xml.internal.security.Init"/>
+    <fullyQualifiedTypeName name="javax.servlet.Filter"/>
 </qualifiedTypeNameHistroy>
